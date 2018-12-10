@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane fx:id="anchorPaneRoot" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.capputechino.psmqtplayer.layouts.NowPlayingController">
+   <children>
+      <MediaView fx:id="mediaViewPlayer" fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="90.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="282.0" layoutY="40.0" text="Label" />
+      <Label layoutX="282.0" layoutY="70.0" text="Label" />
+   </children>
+</AnchorPane>
